@@ -46,17 +46,17 @@
       },
       "SPT_CLIENT_SECRET": {
          "description": "Spotify Client Secret",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "SPT_CLIENT_ID": {
          "description": "Spotify Client ID",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "GENIUS": {
          "description": "xxxxxxx",
-         "required": true,
+         "required": false,
          "value": ""
       },      
       "WORKERS": {
@@ -71,7 +71,7 @@
       },
       "ARLTOKEN": {
          "description": "Deezer ARL Token.",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "APP_URL": {
