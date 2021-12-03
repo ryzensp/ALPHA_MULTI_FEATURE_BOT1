@@ -14,7 +14,7 @@
 
 
 import os, sys, logging
-
+    TOKEN = os.environ.get("TOKEN")
     WORKERS = int(os.environ.get("WORKERS", 8))
     TMDBAPI = os.environ.get("TMDBAPI")
     DB_URI = os.environ.get("DATABASE_URL")
