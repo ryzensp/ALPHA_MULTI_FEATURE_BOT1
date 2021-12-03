@@ -14,11 +14,7 @@
 
 
 import os, sys, logging
-from functools import wraps
-from telegram.ext import Updater, Defaults
 
-    class Config(object):
-    TOKEN = os.environ.get("TOKEN")
     WORKERS = int(os.environ.get("WORKERS", 8))
     TMDBAPI = os.environ.get("TMDBAPI")
     DB_URI = os.environ.get("DATABASE_URL")
