@@ -30,8 +30,7 @@ if ENV:
     APIHASH = os.environ.get("APIHASH")
 
 
-else:
-    from config.py import Config
+
 
     TOKEN = Config.TOKEN
     WORKERS = Config.WORKERS
