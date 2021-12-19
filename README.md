@@ -1,4 +1,4 @@
-![logo](https://telegra.ph/file/8109bf8f6b27ce9b45ff1.jpg)
+![logo](io)
 <h1 align="center">αcutєвσt</h1>
 
 <b>Modular telegram bot to get Movies, Anime, Muisc & much more!</b>
@@ -35,3 +35,7 @@ Can be found in telegram as [𝙰𝚌𝚞𝚝𝚎𝙱𝚘𝚝](https://t.me/acut
 
 
 <b>Contributions of all sizes are welcome :)</b>
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/likucs/VCPlayerBot)
