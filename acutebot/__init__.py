@@ -42,22 +42,24 @@ if ENV:
     APIHASH = Config.APIHASH
 
 
-if DEBUG:
-    logging.basicConfig(
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        level=logging.DEBUG,
-    )
-else:
-    logging.basicConfig(
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        level=logging.INFO,
-    )
+from telegram.ext import Updater
+import logging
+
+# Enable logging
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+)
+
+logger = logging.getLogger(__name__)
+logger.info(msg="Logging started...")
+
+updater = Updater(BOT_TOKEN)
+dp = updater.dispatcher
 
 __version__ = "1.1.3-rev09"
 
 DEV_ID = 1296817425
 LOG = logging.getLogger(__name__)
-DEBUG = False
 
 # Check python version:
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
@@ -77,8 +79,3 @@ def typing(func):
 
     return command_func
 
-
-# Use HTML treewide;
-defaults = Defaults(parse_mode=ParseMode.HTML)
-updater = Updater(TOKEN, use_context=True, workers=WORKERS, defaults=defaults)
-dp = updater.dispatcher
