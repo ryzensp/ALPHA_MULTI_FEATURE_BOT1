@@ -1,6 +1,3 @@
-else:
-     import Config
-
     TOKEN = Config.TOKEN
     WORKERS = Config.WORKERS
     TMDBAPI = Config.TMDBAPI
