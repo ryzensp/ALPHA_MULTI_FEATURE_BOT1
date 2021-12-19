@@ -57,6 +57,7 @@ __version__ = "1.1.3-rev09"
 
 DEV_ID = 1296817425
 LOG = logging.getLogger(__name__)
+DEBUG = False
 
 # Check python version:
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
