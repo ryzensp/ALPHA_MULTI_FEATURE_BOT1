@@ -38,4 +38,7 @@ Can be found in telegram as [𝙰𝚌𝚞𝚝𝚎𝙱𝚘𝚝](https://t.me/acut
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/likucs/VCPlayerBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cshowl/ALPHA_MULTI_FEATURE_BOT1)
+)
